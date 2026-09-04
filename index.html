@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AYHAM — YHARNAM HOST</title>
+
+<style>
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #eee;
+    background:
+        linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.78)),
+        url("Bloodborne.jpg") center center / cover no-repeat fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 92%;
+    max-width: 700px;
+    text-align: center;
+}
+
+.header {
+    margin-bottom: 30px;
+}
+
+.small {
+    font-size: 13px;
+    letter-spacing: 4px;
+    color: #aaa;
+    margin-bottom: 12px;
+}
+
+h1 {
+    font-size: 48px;
+    letter-spacing: 8px;
+    margin-bottom: 5px;
+    text-shadow: 0 0 20px #000;
+}
+
+.subtitle {
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: #bbb;
+}
+
+.motto {
+    margin-top: 18px;
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 18px;
+    color: #aaa;
+}
+
+.panel {
+    background: rgba(10,10,10,.82);
+    border: 1px solid rgba(180,180,180,.25);
+    padding: 35px 28px;
+    box-shadow: 0 15px 50px rgba(0,0,0,.7);
+}
+
+.panel h2 {
+    font-family: Georgia, serif;
+    font-size: 27px;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+}
+
+.description {
+    color: #aaa;
+    margin-bottom: 28px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.host-button {
+    width: 100%;
+    padding: 18px 15px;
+    border: 1px solid #777;
+    background: rgba(25,25,25,.9);
+    color: #eee;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: .25s;
+}
+
+.host-button:hover {
+    background: rgba(70,70,70,.9);
+    border-color: #ccc;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0,0,0,.5);
+}
+
+.status {
+    margin-top: 25px;
+    font-size: 12px;
+    letter-spacing: 3px;
+    color: #888;
+}
+
+footer {
+    margin-top: 25px;
+    color: #777;
+    font-size: 11px;
+    letter-spacing: 3px;
+}
+
+@media(max-width:600px) {
+    h1 {
+        font-size: 34px;
+        letter-spacing: 5px;
+    }
+
+    .subtitle {
+        font-size: 15px;
+    }
+
+    .panel {
+        padding: 28px 18px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="header">
+        <div class="small">PLAYSTATION 4 • PRIVATE HOST</div>
+
+        <h1>AYHAM</h1>
+
+        <div class="subtitle">YHARNAM HOST</div>
+
+        <div class="motto">Fear the old blood</div>
+    </div>
+
+    <div class="panel">
+
+        <h2>HUNTER'S DREAM</h2>
+
+        <p class="description">
+            Select your compatible PS4 firmware host
+        </p>
+
+        <div class="buttons">
+
+            <button class="host-button"
+                onclick="window.location.href='https://zecoxao.github.io/ntfonto/'">
+                ★ PS4 7.00 → 11.02 ★
+            </button>
+
+            <button class="host-button"
+                onclick="window.location.href='https://raw-game.com/zrm/'">
+                ★ PS4 11.50 → 13.00 ★
+            </button>
+
+        </div>
+
+        <div class="status">
+            HOST STATUS: READY
+        </div>
+
+    </div>
+
+    <footer>
+        FEAR THE OLD BLOOD<br><br>
+        CREATED BY AYHAM
+    </footer>
+
+</div>
+
+</body>
+</html>

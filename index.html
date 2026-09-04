@@ -330,7 +330,7 @@ footer{
 
         <button
             class="goldhen"
-            onclick="launchHost('https://raw-game.com/zrm')">
+            onclick="launchHost('https://raw-game.com/zrm/')">
 
             ★ &nbsp; PS4 11.50 → 13.00 &nbsp; ★
 
@@ -356,18 +356,7 @@ footer{
 <script>
 
 function launchHost(url){
-
-    const state =
-        document.getElementById("state");
-
-    state.textContent =
-        "OPENING HOST...";
-
-    setTimeout(function(){
-
-        window.location.href =
-            REAL_HOST;
-
+      document.getElementById("status").textContent = "HOST STATUS: LOCAL";
     },350);
 }
 
